@@ -5,7 +5,9 @@
 __Phone:__ +375(33)312-67-46 
 __Mail:__ vladikpizza02@gmail.com   
 
-_I have one main goal, I want to become a Front-end developer, I really like to develop and create websites of various formats (from guidebooks to something new). I like to work in a team, I am purposeful and complete all tasks, I like to bring the work to the very end. I have no work experience, I'm still learning, but I have a strong motivation, I deeply admire Front-end developers and the way they do projects in a team, it's attractive and you just can't try it yourself, work hard and improve your skills and knowledge . My dream is to become a front end developer and work in a team of other developers on various projects._
+![](https://avatars.githubusercontent.com/u/70092332?s=400&u=6a9f419b17758459393b54b04e77bc50f0ae3389&v=4)
+
+ _I have one main goal, I want to become a Front-end developer, I really like to develop and create websites of various formats (from guidebooks to something new). I like to work in a team, I am purposeful and complete all tasks, I like to bring the work to the very end. I have no work experience, I'm still learning, but I have a strong motivation, I deeply admire Front-end developers and the way they do projects in a team, it's attractive and you just can't try it yourself, work hard and improve your skills and knowledge . My dream is to become a front end developer and work in a team of other developers on various projects._
 
 ***
 
@@ -26,8 +28,8 @@ _I have one main goal, I want to become a Front-end developer, I really like to 
 ***
 
 ### Code example
-
-"const jsEXample = (CV) => {
+```
+const jsEXample = (CV) => {
     const firstSecondName = 'Vladislaw';
 
     if (CV !== firstSecondName) {
@@ -54,7 +56,8 @@ const checkout = (numberWord) => {
 
 console.log(checkout('uralic'));
 console.log(checkout('Iraris'));
-console.log(checkout('Leonardo'));" 
+console.log(checkout('Leonardo'));
+```
 
 ***
 
