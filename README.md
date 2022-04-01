@@ -1,0 +1,1 @@
+[My CV](https://PitsuhaVladislaw.github.io/rsschool-cv/cv "Мое резюме")
