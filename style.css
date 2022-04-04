@@ -62,6 +62,18 @@
     text-shadow: 1px 1px 2px red, 0 0 0.5em red;
 }
 
+.video {
+    height: 150px;
+    width: 230px;
+    border-bottom: red;
+    padding: 10px;
+}
+
+.Table_1 {
+    border: 5px solid rgb(175, 22, 22);
+    background-color: rgba(255, 255, 255, 0.747);
+}
+
 .p_1 {
     font-size: 22px;
     font-family: cursive;
@@ -125,4 +137,9 @@
     top: 0;
     z-index: 100;
     width: 1503px;
+}
+
+.article {
+    border: 5px solid rgb(175, 22, 22);
+    background-color: black;
 }
