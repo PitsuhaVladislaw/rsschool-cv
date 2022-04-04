@@ -102,3 +102,27 @@
     top: 206px;
     width: 250px;
 }
+
+.menu_2 {
+    position: relative;
+    width: 1250px;
+    float: right;
+    top: 198px;
+}
+
+.head {
+    background-color: white;
+    border: 5px solid rgb(175, 22, 22);
+    position: sticky;
+    display: flex;
+    align-items: flex-start;
+    padding: 1em;
+    max-width: auto;
+}
+
+.head_1 {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 1503px;
+}
