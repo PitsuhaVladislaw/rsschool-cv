@@ -1,8 +1,72 @@
+.body {
+    background-color: black;
+}
+
+.img_1 {
+    height: 150px;
+    width: 300px;
+    margin-right: auto;
+    order: 0;
+    border: 7px solid rgb(175, 22, 22);
+}
+
+.img_2 {
+    height: 150px;
+    width: 300px;
+    margin-left: auto;
+    order: 0;
+    border: 7px solid rgb(175, 22, 22);
+}
+
+.img_3 {
+    height: 150px;
+    width: 160px;
+    border: 5px groove red;
+}
+
+.img_3:hover {
+    height: 400px;
+    width: 400px;
+    margin: 0px;
+    border: 4px dashed red;
+    border-radius: 20px;
+}
+
+.h1 {
+    text-shadow: 2px 2px 3px red, 0 0 0.5em red;
+    font-size: 65px;
+    font-family: Georgia;
+    color: rgb(175, 22, 22);
+    width: auto;
+    text-align: center;
+}
+
+.h2:hover {
+    color: gray;
+}
+
+.h2 {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
+    font-style: italic;
+    text-decoration: underline;
+    display: block;
+    margin: 15.5px 0px;
+}
+
 .h_3 {
     font-size: 27px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: red;
     text-shadow: 1px 1px 2px red, 0 0 0.5em red;
+}
+
+.p_1 {
+    font-size: 22px;
+    font-family: cursive;
+    color: red;
+    text-shadow: 1px 1px 2px black, 0 0 0.5em red;
 }
 
 .p_2 {
@@ -15,9 +79,26 @@
     text-indent: 20px;
 }
 
+.h_5 {
+    color: grey;
+    font-size: 17;
+    font-family: Bookman;
+    text-decoration: underline;
+}
+
 .img_4 {
     height: 300px;
     width: 250px;
     border: 10px double rgb(175, 22, 22);
     border-radius: 10px;
+}
+
+.aside {
+    border: 5px solid rgb(175, 22, 22);
+    background-color: white;
+    float: left;
+    position: fixed;
+    z-index: 100;
+    top: 206px;
+    width: 250px;
 }
