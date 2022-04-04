@@ -1,0 +1,23 @@
+.h_3 {
+    font-size: 27px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
+    text-shadow: 1px 1px 2px red, 0 0 0.5em red;
+}
+
+.p_2 {
+    font-size: 20px;
+    font-family: cursive;
+    color: red;
+    text-shadow: 1px 1px 2px black, 0 0 0.5em red;
+    line-height: 1.5;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.img_4 {
+    height: 300px;
+    width: 250px;
+    border: 10px double rgb(175, 22, 22);
+    border-radius: 10px;
+}
