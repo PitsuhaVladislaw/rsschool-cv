@@ -1,0 +1,267 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: auto;
+    width: auto;
+}
+
+header article {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    height: auto;
+    width: auto;
+    margin: 0;
+}
+
+header article .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+header article .title h1 {
+    color: #101214;
+    font-family: Arial;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    height: auto;
+    width: auto;
+    margin: 0;
+}
+
+header article .title h5 {
+    color: #101214;
+    font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    height: auto;
+    width: auto;
+    margin: 0;
+}
+
+header article img {
+    width: 192px;
+    height: 222px;
+    border-radius: 32px;
+    box-shadow: 0px 2px 4px 0px rgba(16, 18, 20, 0.08);
+}
+
+header .profile {
+    display: flex;
+    justify-content: stretch;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 600px;
+}
+
+header .profile h3 {
+    color: #06101b;
+    font-family: Arial;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    height: auto;
+    width: auto;
+    margin: 0;
+}
+
+header .profile p {
+    color: #101214;
+    font-family: Arial;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin: 0;
+}
+
+main {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 735px;
+}
+
+main section .card {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    border-top: 2px solid #06101b;
+}
+
+main section .card h2 {
+    color: #73808D;
+    font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    height: auto;
+    width: auto;
+    margin: 0;
+    margin-top: 10px;
+}
+
+main section .card article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    border: 3px solid #73808D;
+    border-radius: 15px;
+    padding: 15px;
+    flex: 1 0 50%;
+    box-sizing: border-box;
+}
+
+main section .card article .title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+main section .card article .title h3 {
+    color: #06101b;
+    font-family: Arial;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    height: auto;
+    width: auto;
+    margin: 0;
+}
+
+main section .card article .title h5 {
+    color: #06101b;
+    font-family: Arial;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    height: auto;
+    width: auto;
+    margin: 0;
+}
+
+main section .card article p {
+    color: #101214;
+    font-family: Arial;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    height: auto;
+    width: auto;
+    margin: 0;
+}
+
+main section .card article p span {
+    color: #73808D;
+    font-family: Arial;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+main aside {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 440px;
+    gap: 20px;
+}
+
+main aside article {
+    display: flex;
+    flex: 1 0 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-top: 2px solid #101214;
+    gap: 20px;
+}
+
+main aside article h2 {
+    color: #73808D;
+    font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    height: auto;
+    width: auto;
+    margin: 0;
+    margin-top: 10px;
+}
+
+main aside article .group {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 3px solid #73808D;
+    border-radius: 15px;
+    padding: 15px;
+    gap: 10px;
+}
+
+main aside article .group div {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+main aside article .group div a {
+    text-decoration: underline;
+    color: #101214;
+}
+
+main aside article .group p {
+    color: #06101b;
+    font-family: Arial;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    margin: 0;
+}   
+
+main aside article .group p span {
+    color: #06101b;
+    font-family: Arial;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin: 0;
+}
